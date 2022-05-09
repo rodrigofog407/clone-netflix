@@ -1,6 +1,6 @@
 :root{
-    --vermelho:#E50914;
-    --preta:#141414;
+    --azul:#291f8a;
+    --branco:#f1f0f0;
 }
 
 *{
@@ -11,7 +11,7 @@
 
 /*elementos base*/
 body{
-   background: var(--preta);
+   background: var(--azul);
    font-family: 'Arial', Times, serif;
    color:white;
 }
@@ -27,7 +27,7 @@ header .container{
 
 header .logo{
     margin-left: 5px;
-    color: var(--vermelho);
+    color: var(--branco);
     font-family: 'Arial Black', Times;
     font-size:40px;
 }
@@ -46,7 +46,7 @@ header nav a:hover{
 /*filme principal*/
 .filme-principal{
     font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capa-house.jpg');
+    background: url('../img/capa-desafiando.jpg');
 
     height:400px;
     background-size:cover;
@@ -82,6 +82,15 @@ header nav a:hover{
 
     cursor: pointer;
     transition: .3s ease all;
+
+}
+
+.botao a {
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+    text-decoration: none;
+   
 }
 
 .botao:hover{
